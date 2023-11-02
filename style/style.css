@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'inter' , sans-serif;
+}
+
+nav{
+    color: white;
+    padding: 50px;
+    position: relative;
+    
+}
+
+.menu {
+    color: #Ff6600;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    list-style: none;
+    margin-right: 30px ;
+    display: flex;
+    top: 20px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    transition: all ease-in-out;
+    transition: 0.5s;
+    }
+    
+.menu li {
+        margin-left: 15px; 
+        
+    }
+    
+.menu li:first-child {
+        margin-left: 0; 
+    }
+
+#item1:hover , #item1:focus{
+    transform: scale(1.1);
+    color: white;
+    background-color: #007bff;
+}
+
+#item2:hover , #item2:focus{
+    transform: scale(1.1);
+    color: white;
+    background-color: #007bff;
+}
+
+#item3:hover , #item3:focus{
+    transform: scale(1.1);
+    color: white;
+    background-color: #007bff;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+}
+
+.img-logo{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    
+} 
+
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 26px;
+    transition: transform 0.5s;
+} 
+.button:hover{
+    transform: scale(1.2);
+}
+.text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 32px;
+    color: #fff;
+
+} 
+
+
+.topicos{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+.topic{
+    padding: 15px;
+    margin: 15px;
+}
+
+.link{
+    padding: 15px 0 0 0;
+    
+}
+
+#link1{
+    text-decoration: none;
+    color: #Ff6600;
+}
+#link2{
+    text-decoration: none;
+    color: #Ff6600;
+}
+#link3{
+    text-decoration: none;
+    color: #Ff6600;
+}
+h3{
+    color: #Ff6600;
+}
+
+
+h2{
+    color: #Ff6600;
+    text-align: center;
+    padding: 25px;
+}
+#paragrafo{
+    color: #Ff6600;
+    text-align: center;
+}
+
+
+.container{
+    padding: 10px 5px;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly ; 
+}
+.card{
+    margin: 15px;
+    width: 300px;
+    height: 400px;
+    background-color: #Ff6600;
+    color: white;
+    border-radius: 8px;
+    transition:  .3s all ease;
+    flex: 2;
+    
+
+    
+}
+.card-title{
+    padding: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    flex: 2;
+}
+
+.image{
+    object-fit: cover;
+    
+    box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 8px;
+    width: 250px;
+    height: 200px;
+    margin-left: 15px;
+    margin-bottom: 50px; 
+    position: initial;
+}
